@@ -1,0 +1,32 @@
+$orange: #f25b24;
+$title: #2e2d35;
+$text: #474351;
+
+%segoiui {
+  font-family: "SegoiUI", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+%segoiui-semibold {
+  font-family: "SegoiUI-SemiBold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+%whitneybook {
+  font-family: "Whitney-Book", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+%whitneymedium {
+  font-family: "Whitney-Book-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+%segoiui-semibold {
+  font-family: "Whitney-Book-Semibold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+%bg {
+  background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+}

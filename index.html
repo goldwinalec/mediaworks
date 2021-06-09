@@ -5,6 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <img class="header__logo" src="/images/logo.svg" alt="TEST" />
+          <div class="header__links">
+            <a class="header__link" href="#">Клиентам</a>
+            <a class="header__login" href="#">Войти</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <h1 class="hero__title">Подбор авто в лизинг по выгодной цене</h1>
+          <p class="hero__text">
+            IT платформа по быстрому поиску автомобиля от официальных дилеров РФ
+          </p>
+          <a href="#" class="hero__link">Регистрация</a>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="features__inner">
+          <h2 class="features__title">Меньше условий – больше возможностей</h2>
+          <div class="features__items">
+            <div class="features__item item">
+              <h3 class="item__title">Экономия времени</h3>
+              <p class="item__text">
+                Дополнительный канал потенциальных клиентов, готовых приобрести
+                автомобиль, без затрат на рекламу и маркетинг.
+              </p>
+              <img
+                class="item__img"
+                src="/images/content/features-item-1.svg"
+                alt="Экономия времени"
+              />
+            </div>
+            <div class="features__item item">
+              <h3 class="item__title">Никаких задержек</h3>
+              <p class="item__text">
+                Вы получаете запросы сразу же после отправки клиентом.
+              </p>
+              <img
+                class="item__img"
+                src="/images/content/features-item-2.svg"
+                alt="Никаких задержек"
+              />
+            </div>
+            <div class="features__item item">
+              <h3 class="item__title">Максимальная информативность</h3>
+              <p class="item__text">
+                В каждой заявке указан регион поиска, марка и модель авто, а так
+                же индивидуальные запросы клиента.
+              </p>
+              <img
+                class="item__img"
+                src="/images/content/features-item-3.svg"
+                alt="Максимальная информативность"
+              />
+            </div>
+            <div class="features__item item">
+              <h3 class="item__title">Удобство общения</h3>
+              <p class="item__text">
+                Для каждого запроса у вас открыт чат с клиентом с возможностью
+                отправки документов.
+              </p>
+              <img
+                class="item__img"
+                src="/images/content/features-item-4.svg"
+                alt="Удобство общения"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <h2 class="footer__title">
+            Регистрируйся и получай актуальные запросы на автомобили от
+            заинтерисованных клиентов
+          </h2>
+          <a class="footer__link" href="#">Регистрация</a>
+        </div>
+      </div>
+    </footer>
+    <section class="modal">
+      <div class="container">
+        <div class="modal__inner">
+          <h2 class="modal__title">Авторизация</h2>
+          <a class="modal__close" href="#"></a>
+          <form class="modal__form">
+            <label class="modal__label" for="email" ></label>
+              E-mail<input
+                class="modal__input"
+                type="email"
+                id="email"
+                placeholder="Введите e-mail"
+                required
+            /></label>
+            <label class="modal__label" for="password"
+              >Пароль<input
+                class="modal__input"
+                type="password"
+                id="password"
+                placeholder="Введите пароль"
+                required
+            /></label>
+            <button class="modal__btn">Войти</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="/js/main.js"></script>
+  </body>
 </html>

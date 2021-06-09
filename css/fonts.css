@@ -1,1 +1,34 @@
-/* No CSS */
+@font-face {
+  font-family: "SegoiUI";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/SegoiUI.woff2") format("woff2"), url("/fonts/SegoiUI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SegoiUI-SemiBold";
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/SegoiUI-SemiBold.woff2") format("woff2"), url("/fonts/SegoiUI-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney-Book";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Whitney-Book.woff2") format("woff2"), url("/fonts/Whitney-Book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney-Book-Medium";
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/Whitney-Book-Medium.woff2") format("woff2"), url("/fonts/Whitney-Book-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney-Book-Semibold";
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/Whitney-Book-Semibold.woff2") format("woff2"), url("/fonts/Whitney-Book-Semibold.woff") format("woff");
+}
