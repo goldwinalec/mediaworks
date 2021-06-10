@@ -161,7 +161,7 @@ a {
   left: 0px;
   width: 24px;
   height: 24px;
-  background-image: url("/images/icons/user.svg");
+  background-image: url("/mediaworks/images/icons/user.svg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -175,7 +175,7 @@ a {
 }
 
 .header__login:hover.header__login::before {
-  background-image: url("/images/icons/user-hover.svg");
+  background-image: url("/mediaworks/images/icons/user-hover.svg");
 }
 
 .hero {
@@ -212,7 +212,7 @@ a {
   height: 100%;
   top: 1rem;
   right: 1.9rem;
-  background-image: url("/images/content/hero-bg.svg");
+  background-image: url("/mediaworks/images/content/hero-bg.svg");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
           background-size: contain;
@@ -336,7 +336,7 @@ a {
   height: 340px;
   right: 0;
   top: 19px;
-  background-image: url("/images/content/footer-bg.png");
+  background-image: url("/mediaworks/images/content/footer-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -474,7 +474,7 @@ a {
   right: 24px;
   width: 14px;
   height: 14px;
-  background-image: url("/images/icons/close.svg");
+  background-image: url("/mediaworks/images/icons/close.svg");
 }
 
 .modal__label {
