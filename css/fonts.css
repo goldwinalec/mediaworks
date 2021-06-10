@@ -2,33 +2,33 @@
   font-family: "SegoeUI";
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/SegoeUI.woff2") format("woff2"), url("/fonts/SegoeUI.woff") format("woff");
+  src: url("/mediaworks/fonts/SegoeUI.woff2") format("woff2"), url("/mediaworks/fonts/SegoeUI.woff") format("woff");
 }
 
 @font-face {
   font-family: "SegoeUI-SemiBold";
   font-weight: 600;
   font-display: swap;
-  src: url("/fonts/SegoeUI-SemiBold.woff2") format("woff2"), url("/fonts/SegoeUI-SemiBold.woff") format("woff");
+  src: url("/mediaworks/fonts/SegoeUI-SemiBold.woff2") format("woff2"), url("/mediaworks/fonts/SegoeUI-SemiBold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Whitney-Book";
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/Whitney-Book.woff2") format("woff2"), url("/fonts/Whitney-Book.woff") format("woff");
+  src: url("/mediaworks/fonts/Whitney-Book.woff2") format("woff2"), url("/mediaworks/fonts/Whitney-Book.woff") format("woff");
 }
 
 @font-face {
   font-family: "Whitney-Medium";
   font-weight: 500;
   font-display: swap;
-  src: url("/fonts/Whitney-Medium.woff2") format("woff2"), url("/fonts/Whitney-Medium.woff") format("woff");
+  src: url("/mediaworks/fonts/Whitney-Medium.woff2") format("woff2"), url("/mediaworks/fonts/Whitney-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "Whitney-Semibold";
   font-weight: 600;
   font-display: swap;
-  src: url("/fonts/Whitney-Semibold.woff2") format("woff2"), url("/fonts/Whitney-Semibold.woff") format("woff");
+  src: url("/mediaworks/fonts/Whitney-Semibold.woff2") format("woff2"), url("/mediaworks/fonts/Whitney-Semibold.woff") format("woff");
 }
