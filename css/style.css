@@ -74,7 +74,6 @@ body {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 *,
@@ -85,6 +84,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-size: 16px;
   line-height: 1.42;
   color: #474351;
@@ -301,6 +301,7 @@ a {
 }
 
 .item__title {
+  font-size: 22px;
   color: #2e2d35;
   margin: 0;
   margin-bottom: 22px;
@@ -498,6 +499,11 @@ a {
   .header__login {
     margin-left: 25px;
   }
+  .features__title,
+  .footer__title,
+  .modal__title {
+    font-size: 30px;
+  }
   .hero__inner {
     min-height: unset;
   }
@@ -552,11 +558,15 @@ a {
     font-size: 28px;
   }
   .features__title,
-  .footer__title {
+  .footer__title,
+  .modal__title {
     font-size: 24px;
   }
   .features__title {
     margin-bottom: 30px;
+  }
+  .item__title {
+    font-size: 18px;
   }
   .item__wrapper {
     margin-right: 0;
@@ -591,15 +601,16 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .item__img {
+    width: 100px;
+    height: 100px;
+  }
   .footer__title {
     max-width: 100%;
   }
   .modal__inner {
     height: unset;
     padding: 30px;
-  }
-  .modal__title {
-    font-size: 24px;
   }
 }
 

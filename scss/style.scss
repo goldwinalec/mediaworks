@@ -3,7 +3,6 @@
 
 html {
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 *,
@@ -13,6 +12,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   @extend %segoeui;
   font-size: 16px;
   line-height: 1.42;
@@ -193,6 +193,7 @@ a {
 
 .item__title {
   @extend %segoeui-semibold;
+  font-size: 22px;
   color: $title;
   margin: 0;
   margin-bottom: 22px;
