@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body>
+  <body class="page">
     <header class="header">
       <div class="container">
         <div class="header__inner">
           <img class="header__logo" src="/images/logo.svg" alt="TEST" />
           <div class="header__links">
             <a class="header__link" href="#">Клиентам</a>
-            <a class="header__login" href="#">Войти</a>
+            <a class="header__link header__login" href="#">Войти</a>
           </div>
         </div>
       </div>
@@ -36,11 +37,13 @@
           <h2 class="features__title">Меньше условий – больше возможностей</h2>
           <div class="features__items">
             <div class="features__item item">
-              <h3 class="item__title">Экономия времени</h3>
-              <p class="item__text">
-                Дополнительный канал потенциальных клиентов, готовых приобрести
-                автомобиль, без затрат на рекламу и маркетинг.
-              </p>
+              <div class="item__wrapper">
+                <h3 class="item__title">Экономия времени</h3>
+                <p class="item__text">
+                  Дополнительный канал потенциальных клиентов, готовых
+                  приобрести автомобиль, без затрат на рекламу и маркетинг.
+                </p>
+              </div>
               <img
                 class="item__img"
                 src="/images/content/features-item-1.svg"
@@ -48,10 +51,12 @@
               />
             </div>
             <div class="features__item item">
-              <h3 class="item__title">Никаких задержек</h3>
-              <p class="item__text">
-                Вы получаете запросы сразу же после отправки клиентом.
-              </p>
+              <div class="item__wrapper">
+                <h3 class="item__title">Никаких задержек</h3>
+                <p class="item__text">
+                  Вы получаете запросы сразу же после отправки клиентом.
+                </p>
+              </div>
               <img
                 class="item__img"
                 src="/images/content/features-item-2.svg"
@@ -59,11 +64,14 @@
               />
             </div>
             <div class="features__item item">
-              <h3 class="item__title">Максимальная информативность</h3>
-              <p class="item__text">
-                В каждой заявке указан регион поиска, марка и модель авто, а так
-                же индивидуальные запросы клиента.
-              </p>
+              <div class="item__wrapper">
+                <h3 class="item__title">Максимальная информативность</h3>
+                <p class="item__text">
+                  В каждой заявке указан регион поиска, марка и модель авто, а
+                  так же индивидуальные запросы клиента.
+                </p>
+              </div>
+
               <img
                 class="item__img"
                 src="/images/content/features-item-3.svg"
@@ -71,11 +79,13 @@
               />
             </div>
             <div class="features__item item">
-              <h3 class="item__title">Удобство общения</h3>
-              <p class="item__text">
-                Для каждого запроса у вас открыт чат с клиентом с возможностью
-                отправки документов.
-              </p>
+              <div class="item__wrapper">
+                <h3 class="item__title">Удобство общения</h3>
+                <p class="item__text">
+                  Для каждого запроса у вас открыт чат с клиентом с возможностью
+                  отправки документов.
+                </p>
+              </div>
               <img
                 class="item__img"
                 src="/images/content/features-item-4.svg"
@@ -103,14 +113,16 @@
           <h2 class="modal__title">Авторизация</h2>
           <a class="modal__close" href="#"></a>
           <form class="modal__form">
-            <label class="modal__label" for="email" ></label>
-              E-mail<input
+            <label class="modal__label" for="email">
+              E-mail
+              <input
                 class="modal__input"
                 type="email"
                 id="email"
                 placeholder="Введите e-mail"
                 required
-            /></label>
+              />
+            </label>
             <label class="modal__label" for="password"
               >Пароль<input
                 class="modal__input"

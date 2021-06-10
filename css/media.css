@@ -1,1 +1,124 @@
-/* No CSS */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+  .hero__inner::before {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__login {
+    margin-left: 25px;
+  }
+  .hero__inner {
+    min-height: unset;
+  }
+  .hero__title {
+    font-size: 36px;
+    width: 48%;
+  }
+  .hero__text {
+    font-size: 16px;
+    width: 48%;
+  }
+  .footer__inner::before {
+    width: 50%;
+    height: 100%;
+    -webkit-background-size: contain;
+            background-size: contain;
+  }
+  .footer__title {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+    padding: 148px 0 50px;
+  }
+  .item__wrapper {
+    margin-right: 10px;
+  }
+  .features {
+    padding: 50px 0;
+  }
+  .features__items {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  .footer {
+    margin-bottom: 50px;
+  }
+  .footer__inner {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  body,
+  .header__links {
+    font-size: 14px;
+  }
+  .hero__title {
+    font-size: 28px;
+  }
+  .features__title,
+  .footer__title {
+    font-size: 24px;
+  }
+  .features__title {
+    margin-bottom: 30px;
+  }
+  .item__wrapper {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__link {
+    display: none;
+  }
+  .header__login {
+    display: block;
+    width: 0;
+    height: 25px;
+    overflow: hidden;
+    padding-left: 24px;
+  }
+  .hero__inner::before,
+  .footer__inner::before {
+    display: none;
+  }
+  .hero__title,
+  .hero__text {
+    width: 100%;
+  }
+  .features__item {
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__title {
+    max-width: 100%;
+  }
+  .modal__inner {
+    height: unset;
+    padding: 30px;
+  }
+  .modal__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero__link,
+  .footer__link {
+    width: 100%;
+  }
+}
